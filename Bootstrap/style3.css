@@ -5,9 +5,9 @@ h2, h4 {font-size: 40px}
 h5{font-size: 30px}
 h6{font-size: 25px}
 p{font-family: 'Raleway', sans-serif;}
-div.a {text-align: center; align-items: center; padding-right: 10px;}
-div.b {text-align: center; align-items: center; padding-right: 10px;}
-div.c {text-align: center; align-items: center; padding-right: 10px;}
+div.a {text-align: center; align-items: center;}
+div.b {text-align: center; align-items: center;}
+div.c {text-align: center; align-items: center;}
 div.d {text-align: center; align-items: center;}
 div.e {text-align: center; align-items: center;}
 div.f {text-align: center; align-items: center;}
@@ -19,6 +19,9 @@ div.k {text-align: center; align-items: center;}
 div.l {text-align: center; align-items: center;}
 div.m {text-align: center; align-items: center;}
 div.o {text-align: center; align-items: center;}
+div.x {text-align: center; align-items: center;}
+div.y {text-align: center; align-items: center;}
+div.z {text-align: center; align-items: center;}
 div.n {text-align: center; align-items: center; padding-bottom: 10px;}
 div.p {text-align: center; align-items: center;}
 div.q {text-align: center; align-items: center;}
