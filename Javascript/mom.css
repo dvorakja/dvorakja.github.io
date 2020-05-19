@@ -24,7 +24,10 @@ div.n {text-align: center; align-items: center;}
 div.p {text-align: center; align-items: center;}
 div.v {text-align: center; align-items: center;}
 div.z {font-size: 45px; align-items: center; text-align: center;}
+div.q {font-size: 45px; align-items: center; text-align: center;}
+div.r {font-size: 45px; align-items: center; text-align: center;}
 .jumbotron {background: url("https://res.cloudinary.com/dadm9ahkn/image/upload/v1589822818/ocean_udyafk.jpg"); background-size: cover;}
 .img-fluid{
   border-radius: 50%;
+  align-items: center
 }

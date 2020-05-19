@@ -10,7 +10,24 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../Javascript/mom.css">
-    <title>Lisa Dvorak</title>
+    <!-- Primary Meta Tags -->
+    <title>Meet Lisa Dvorak</title>
+    <meta name="title" content="Meet Lisa Dvorak">
+    <meta name="description" content="Lisa Dvorak's Therapy Website.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dvorakja.github.io/Javascript/Mom'sWebsite.html">
+    <meta property="og:title" content="Meet Lisa Dvorak">
+    <meta property="og:description" content="Lisa Dvorak's Therapy Website.">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dvorakja.github.io/Javascript/Mom'sWebsite.html">
+    <meta property="twitter:title" content="Meet Lisa Dvorak">
+    <meta property="twitter:description" content="Lisa Dvorak's Therapy Website.">
+    <meta property="twitter:image" content="">
   </head>
   <body>
     <div class="container">
@@ -61,6 +78,9 @@
           <div class="col-sm-4">
             <div class="b">
               <p> </p>
+             <div class="q">
+              <p><i class="fas fa-award"></i></p>
+             </div>
               <p> </p>
               <p> I am energetic, enthusiatic and compassionate. I have learned a lot from my 53 years of life expierence. I want to help others
               and make sure they recieve the necessary help to improve thier lives. I am certified in all forms of therapy, whether it be virtual or in person.  </p>
@@ -68,31 +88,26 @@
               <p> </p>
             </div>
             <div class="z">
-               <p><i class="fas fa-award"></i></p>
-               <p> </p>
-               <p> </p>
                <p><i class="fas fa-graduation-cap"></i></p>
             </div>
            </div>
         <div class="col-sm-4">
           <div class="a">
-            <img data-src="https://res.cloudinary.com/dadm9ahkn/image/upload/v1589836545/Mom_Pro_fjge1n.png" class="img-thumbnail lazy" alt="Dude" width="350" height="234">
+            <img data-src="https://res.cloudinary.com/dadm9ahkn/image/upload/v1589836545/Mom_Pro_fjge1n.png" class="img-thumbnail lazy" alt="Mom" width="350" height="234">
               </div>
             </div>
               <div class="col-sm-4">
                 <div class="c">
                   <p> </p>
+                <div class="r">
+                  <p><i class="fas fa-hand-holding-heart"></i></p>
+                </div>
                   <p> </p>
-                  <p>Schedule a visit with me by clicking on the Sign Up tab and filling out the information. I would love to get started to help you get back on track. There should be no need for someone who deosn't has help. I will.</p>
-                  <p> </p>
-                  <p> </p>
+                  <p>Schedule a visit with me by clicking on the 'Sign Up' tab and filling out the information. I would love to get started to help you get back on track. There should be no need for someone who deosn't has help. I will make sure you are my number one priority.</p>
                   <p> </p>
                   <p> </p>
                 </div>
               <div class="z">
-                 <p><i class="fas fa-hand-holding-heart"></i></p>
-                 <p> </p>
-                 <p> </p>
                  <p><i class="fas fa-book"></i></p>
               </div>
              </div>
@@ -137,7 +152,7 @@
                 <input class="form-check-input" type="checkbox">I Understand Above Information is Private
                </label>
              </div>
-           <button type="submit" class="btn btn-primary">Submit</button>
+           <button onclick="myFunction()">Submit</button>
           </form>
         </div>
        </div>
@@ -203,7 +218,7 @@
         <div class="col-sm-4">
             <div class="e">
               <h4>Reliable</h4>
-              <img data-src="https://res.cloudinary.com/dadm9ahkn/image/upload/v1589834174/girl4_tpmbvk.jpg" class="img-fluid lazy" alt="Dude" width="350" height="234">
+              <img data-src="https://res.cloudinary.com/dadm9ahkn/image/upload/v1589834174/girl4_tpmbvk.jpg" class="img-fluid lazy" alt="Girl" width="350" height="234">
                 <p>Lisa is very flexible and will always make time to meet with me, even at the oddest hours of the week. She really cares about her patients. </p>
                 <p>⭑⭑⭑⭑⭑</p>
               </div>
@@ -211,11 +226,11 @@
        <div class="col-sm-4">
           <div class="f">
             <h4>Compassionate</h4>
-             <img data-src="https://res.cloudinary.com/dadm9ahkn/image/upload/v1589834155/kid_j5iqy4.jpg" class="img-fluid lazy" alt="Dude" width="350" height="234">
+             <img data-src="https://res.cloudinary.com/dadm9ahkn/image/upload/v1589834155/kid_j5iqy4.jpg" class="img-fluid lazy" alt="Kid" width="350" height="234">
                 <p> I really feel a personal connection with her, something my past therapist didnt show. It makes our meetings more joyful and effective.</p>
                 <p>⭑⭑⭑⭑⭑</p>
-             </div>
-          </div>
+           </div>
+         </div>
        </div>
     </div>
   </div>
@@ -264,15 +279,26 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+<script src="mom.js"></script>
  <script type="text/javascript">
    var lazyLoadInstance = new LazyLoad({
      elements_selector: ".lazy"
      // ... more custom settings?
       });
     </script>
+    <script>
+  function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
   </body>
 </html>
